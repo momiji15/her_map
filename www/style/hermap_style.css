@@ -1,0 +1,58 @@
+/* HER Map style sheet */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.navbar-default{
+    background-color: #9A2977;
+}
+
+/*Change the brand and text color */
+.navbar-default .navbar-brand{
+    color: #DAA5BF;
+}
+
+/*Make sure the color stays the same when hovering over */
+.navbar-default .navbar-brand:hover {
+    color: #DAA5BF;
+}
+
+
+/*Change the color of the navbar elements */
+.navbar-default .navbar-nav > li > a
+{
+    color: #DAA5BF;
+}
+
+
+/*Change the color of the active or hovered links */
+.navbar-default .navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+    color: #FDF0DF;
+    background-color: #DAA5BF;
+}
+
+/*.navbar-default .navbar-nav > .active > a, .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FDF0DF; 
+    background-color: #DAA5BF; 
+}
+*/
+
+/*.navbar-default .navbar-nav>.active > a, .navbar-default .navbar-nav >.active > a:focus, .navbar-default .navbar-nav>.active> a:hover {
+    color: #FDF0DF;
+    background-color: #DAA5BF;
+}
+*/
+
+
+
+
+/*changing the hamburger color to a different color */
+.navbar-toggler{
+    border-color: #FDF0DF;
+}
